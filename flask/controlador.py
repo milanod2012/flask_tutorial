@@ -11,5 +11,4 @@ def agradecer(): #Definimos una función llamada agradecer
 if __name__ == '__main__': #Condicional de que si la aplicación ejecutada se coincide al nombre de la aplicación
     app.run('127.0.0.1', 5000, debug=True) #Método que inicia la app con la dirección, puertos y modo de argumentos
     if __name__ == '__main__': 
-        app.run(debug=True, port=5001) #Argumentos opcionales: debug=False, reloader=
-        
+        app.run(debug=True, port=5001) #Argumentos opciona
